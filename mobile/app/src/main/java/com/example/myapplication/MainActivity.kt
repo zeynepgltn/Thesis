@@ -47,6 +47,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import com.example.myapplication.data.model.SkinCareAdvice
 import com.example.myapplication.ui.theme.AcneDetectionTheme
+
 class MainActivity : ComponentActivity() {
 
     private lateinit var classifier: AcneClassifier
@@ -657,3 +658,4 @@ private fun saveImageToInternalStorage(context: android.content.Context, bitmap:
 
     return file.absolutePath
 }
+
